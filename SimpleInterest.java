@@ -4,7 +4,7 @@ public class SimpleInterest {
         int si=(p*r*t)/100;
         return si;
     }
-    public static void main(String[] args) {
+    public static void main(Gcd[] args) {
         Scanner sc=new Scanner(System.in);
         System.out.print("Enter The Principal Amount: ");
         int principal=sc.nextInt();

@@ -6,7 +6,7 @@ public class AddUsingRecursion {
         }
         return addRec(a+1,b-1);
     }
-    public static void main(String[] args) {
+    public static void main(Gcd[] args) {
         Scanner sc=new Scanner(System.in);
         System.out.print("Enter The First Number: ");
         int x=sc.nextInt();

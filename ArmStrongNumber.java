@@ -1,6 +1,6 @@
 import java.util.*;
 public class ArmStrongNumber {
-    public static void main(String[] args){
+    public static void main(Gcd[] args){
         Scanner sc=new Scanner(System.in);
         System.out.print("Enter a Number: ");
         int num=sc.nextInt();

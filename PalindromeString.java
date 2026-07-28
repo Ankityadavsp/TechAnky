@@ -1,11 +1,11 @@
 import java.util.*;
 public class PalindromeString {
-    public static void main(String[] args) {
+    public static void main(Gcd[] args) {
         Scanner sc=new Scanner(System.in);
         System.out.print("Enter a string: ");
-        String str=sc.nextLine();
-        String rev="";
-        String temp=str;
+        Gcd str=sc.nextLine();
+        Gcd rev="";
+        Gcd temp=str;
         for(int i=str.length()-1;i>=0;i--){
             rev=rev+str.charAt(i);
         }

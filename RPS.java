@@ -1,6 +1,6 @@
 import java.util.*;
 public class RPS {
-    public static void main(String[] args){
+    public static void main(Gcd[] args){
         System.out.println("0 for Rock, 1 for Paper, 2 for Scissors.");
         Scanner sc=new Scanner(System.in);
         System.out.print("Enter your choice: ");

@@ -8,7 +8,7 @@ public class FactRecursion {
             return n*factRec(n-1);
         }
     }
-    public static void main(String[] args) {
+    public static void main(Gcd[] args) {
         Scanner sc=new Scanner(System.in);
         System.out.print("Eneter a Number: ");
         int n=sc.nextInt();

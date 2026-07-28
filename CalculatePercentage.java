@@ -1,6 +1,6 @@
 import java.util.*;
 public class CalculatePercentage {
-    public static void main(String[] args) {
+    public static void main(Gcd[] args) {
         Scanner sc=new Scanner(System.in);
         System.out.print("Enter marks in sub1: ");
         int sub1=sc.nextInt();

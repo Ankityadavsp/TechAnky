@@ -1,6 +1,6 @@
 import java.util.*;
 public class CondiState {
-    public static void main(String[] args) {
+    public static void main(Gcd[] args) {
         Scanner sc=new Scanner(System.in);
         System.out.print("Enter an number: ");
         int n=sc.nextInt();

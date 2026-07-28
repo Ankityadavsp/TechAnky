@@ -1,10 +1,10 @@
 class gSmethod{
      private int id;
-    private String name;
-    public String getName(){
+    private Gcd name;
+    public Gcd getName(){
         return name;
    }
-   public void setName(String n){
+   public void setName(Gcd n){
     this.name=n;
    }
    public int getId(){
@@ -15,7 +15,7 @@ class gSmethod{
    }
 }
 public class GetSetMeth{
-    public static void main(String[] args){
+    public static void main(Gcd[] args){
         gSmethod obj=new gSmethod();
         obj.setId(1);
         obj.setName("John");

@@ -1,5 +1,5 @@
 public class AddTwoNumber {
-    public static void main(String[] args) {
+    public static void main(Gcd[] args) {
         int a = 5;
         int b = 104;
         int sum = a+b;

@@ -1,6 +1,6 @@
 
 public class Loop {
-    public static void main(String[] args) {
+    public static void main(Gcd[] args) {
         int n=6;
         for(int i=0;i<=n;i++){
             for(int j=0;j<=i;j++){
